@@ -116,7 +116,8 @@ here is how you can do it with a minecraft plugin.
 
 ```java
 public class ExamplePlugin extends JavaPlugin {
-
+    private Settings settings;
+    
     @Override
     public void onEnable() {
         try {
