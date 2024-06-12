@@ -160,7 +160,8 @@ You can set optional config behaviour in the constructor.
 public Settings(JavaPlugin plugin) throws IOException {
     // ...
     
-    // This is false by default.
+    // Removes all unrecognised values in the file,
+    // This option is false by default.
     setRemoveUnrecognised(true);
 }
 ```
